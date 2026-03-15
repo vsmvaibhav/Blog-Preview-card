@@ -15,7 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -28,18 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Blog Preview Card Solution](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+*Screenshot will be added once the project is complete*
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-card-component-with-css-9F94jhHwUe)
+- Live Site URL: [Add live site URL here](https://blog-preview-card-orpin-sigma.vercel.app)
 
 ## My process
 
@@ -48,59 +44,92 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Google Fonts (Figtree)
+- CSS hover effects
+- CSS box-shadow and borders
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me practice and learn several key concepts:
 
-To see how you can add code snippets, see below:
+- **Semantic HTML structure**: Using `<article>` for the card container and proper heading hierarchy
+- **CSS Flexbox**: For centering content and aligning author information
+- **CSS custom properties**: Working with HSL color values from the style guide
+- **Interactive hover states**: Creating smooth transitions for user interaction
+- **CSS box-shadow**: Implementing the distinctive black shadow effect
+
+Key code I'm proud of:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<article class="blog-card">
+  <img src="./assets/images/illustration-article.svg" alt="Illustration" class="blog-card__image">
+  <div class="blog-card__content">
+    <span class="blog-card__category">Learning</span>
+    <p class="blog-card__date">Published 21 Dec 2023</p>
+    <h2><a href="#" class="blog-card__link">HTML & CSS foundations</a></h2>
+    <!-- More content -->
+  </div>
+</article>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+```css
+.blog-card__link:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.blog-card {
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 7%);
+}
+```
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Areas I want to focus on in future projects:
+
+- **Responsive design**: Making the card work perfectly on all screen sizes
+- **CSS Grid**: Exploring more complex layouts
+- **Accessibility**: Adding proper focus states and ARIA labels
+- **CSS animations**: Adding subtle micro-interactions
+- **Performance optimization**: Optimizing images and CSS delivery
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs - Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout) - Essential reference for Flexbox properties and usage
+- [Google Fonts](https://fonts.google.com/specimen/Figtree) - Source for the Figtree font used in this project
+- [HSL Color Picker](https://hslpicker.com/) - Helpful tool for working with HSL color values
+- [CSS-Tricks - Box Shadow](https://css-tricks.com/almanac/properties/b/box-shadow/) - Great reference for understanding box-shadow syntax
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+I used **Amazon Q Developer** as my AI assistant throughout this project:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+**What I used:**
+- Amazon Q Developer in VS Code for step-by-step guidance
+
+**How I used it:**
+- **Learning-focused approach**: Instead of asking for complete code, I requested guidance on each step
+- **Debugging assistance**: Q helped identify CSS class name typos and missing units (like `px`)
+- **Best practices**: Learned about semantic HTML structure and CSS organization
+- **Code review**: Q checked my work and provided constructive feedback
+
+**What worked well:**
+- Step-by-step guidance helped me understand the "why" behind each decision
+- Immediate feedback on mistakes helped me learn faster
+- Breaking the project into phases made it less overwhelming
+
+**What I learned:**
+- The importance of matching CSS class names exactly with HTML
+- How to structure a project from planning to completion
+- Working collaboratively with AI while maintaining my own learning goals
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@vsmvaibhav](https://www.frontendmentor.io/profile/vsmvaibhav)
 
 
 
