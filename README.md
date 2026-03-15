@@ -20,6 +20,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
+This project is a responsive blog preview card component built as part of a Frontend Mentor challenge. The card features a clean, modern design with interactive hover effects and follows semantic HTML5 structure. It showcases a blog post preview with an illustration, category badge, publication date, title, description, and author information.
+
+The design emphasizes accessibility and user experience with smooth hover transitions and proper semantic markup. The project demonstrates proficiency in CSS Flexbox for layout, custom properties for maintainable styling, and modern web development best practices.
+
 ### The challenge
 
 Users should be able to:
