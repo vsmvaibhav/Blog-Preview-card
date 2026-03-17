@@ -2,36 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }                 
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  <article class="blog-card">
-  <img src="./assets/images/illustration-article.svg" alt="Illustration of a person reading an article" class="blog-card__image">
-   <div class="blog-card__content">
-  <span class="blog-card__category">Learning</span>
-    <p class="blog-card__date">Published 21 Dec 2023</p>
-    <h2> <a href="#" class="blog-card__link">HTML & CSS foundations</a></h2>
-    <p class="blog-card__description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-    <div class="blog-card__author">
-      <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" class="blog-card__author-image">
-      <p>Greg Hooper</p>
+  <main class="page-content">
+    <h1 class="sr-only">Blog Preview Card</h1>
+
+    <article class="blog-card" aria-labelledby="blog-title">
+      <img 
+        src="./assets/images/illustration-article.svg" 
+        alt="Illustration of a person reading an article" 
+        class="blog-card__image"
+      >
+
+      <div class="blog-card__content">
+        <p class="blog-card__category">Learning</p>
+        <p class="blog-card__date">Published 21 Dec 2023</p>
+
+        <h2 id="blog-title">
+          <a href="#" class="blog-card__link">HTML & CSS foundations</a>
+        </h2>
+
+        <p class="blog-card__description">
+          These languages are the backbone of every website, defining structure, content, and presentation.
+        </p>
+
+        <div class="blog-card__author">
+          <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" class="blog-card__author-image">
+          <p>Greg Hooper</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></span>
+      <span>Coded by <a href="#">Vaibhav Mane</a></span>
     </div>
-    </div>
-  </article>
-  
-<div class="attribution">
-  <span>Challenge by  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></span>
-  <span>Coded by <a href="#">Vaibhav mane</a></span>
-</div>
+  </footer>
+
 </body>
 </html>

@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-card-component-with-css-9F94jhHwUe)
-- Live Site URL: [Add live site URL here](https://blog-preview-card-orpin-sigma.vercel.app)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-blog-card-component-with-css-9F94jhHwUe]
+- Live Site URL: [https://blog-preview-card-orpin-sigma.vercel.app]
 
 ## My process
 
